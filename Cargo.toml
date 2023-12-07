@@ -1,0 +1,11 @@
+[package]
+name = "minecraft_folder_path"
+version = "0.1.0"
+edition = "2021"
+description = "Get the location of the user's .minecraft directory."
+license = "unlicense"
+repository = "https://github.com/azalea-rs/minecraft_folder_path"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
