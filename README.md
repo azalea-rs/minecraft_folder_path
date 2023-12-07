@@ -11,5 +11,7 @@ Note that they may have multiple `.minecraft` directories, or it may be somewher
 // Windows: `%appdata%.minecraft`
 // Mac: `$HOME/Library/Application Support/minecraft`
 // Linux: `$HOME/.minecraft`
-println!("{}", minecraft_folder_path::get_minecraft_directory());
+if let Some(minecraft_dir) = minecraft_folder_path::minecraft_dir() {
+    println!("{minecraft_dir}");
+}
 ```
