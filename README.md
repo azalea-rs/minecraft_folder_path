@@ -7,7 +7,7 @@ Based on a [JavaScript library](https://github.com/simonmeusel/minecraft-folder-
 This is primarily useful if you want to cache Minecraft-related data in the user's default Minecraft directory.
 Note that they may have multiple `.minecraft` directories, or it may be somewhere else if they configured it to be.
 
-```rs
+```rust
 // Windows: `%appdata%.minecraft`
 // Mac: `$HOME/Library/Application Support/minecraft`
 // Linux: `$HOME/.minecraft`

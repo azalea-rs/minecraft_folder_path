@@ -1,6 +1,6 @@
 [package]
 name = "minecraft_folder_path"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "Get the location of the user's .minecraft directory."
 license = "Unlicense"
